@@ -1,60 +1,65 @@
-🤖 AI Event Scheduler
-A full-stack web application that allows users to schedule events and meetings using natural language through a conversational AI chatbot.
+# 🤖 AI Event Scheduler
 
-✨ Live Demo
-You can try the live application here: https://ai-scheduler-7t61.onrender.com/
+A full-stack web application that allows users to schedule events and meetings using *natural language* through a conversational AI chatbot powered by *Google's Gemini model*.
 
-📋 Features
-Conversational AI Chatbot: Schedule events by simply typing requests like "schedule a meeting with the team tomorrow at 2pm for 45 minutes."
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-black?logo=express)
+![Google AI](https://img.shields.io/badge/Google%20AI-Gemini-blue?logo=google)
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-purple?logo=render)](https://ai-scheduler-7t61.onrender.com/)
+[![GitHub Stars](https://img.shields.io/github/stars/vicky0627/Ai_scheduler?style=social)](https://github.com/vicky0627/Ai_scheduler/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/vicky0627/Ai_scheduler?style=social)](https://github.com/vicky0627/Ai_scheduler/network/members)
 
-Intelligent Entity Extraction: The AI understands and extracts the event title, date, time, duration, and participants from plain text.
+---
 
-Manual Event Management: A full-featured form to create, edit, and view all your events.
+## ✨ Live Demo
 
-Upcoming Events View: A dedicated panel to see your schedule for the next 14 days.
+👉 You can try the live application here: [AI Event Scheduler Demo](https://ai-scheduler-7t61.onrender.com/)
 
-Browser Notifications: Set reminders for your events and receive a browser notification before they start.
+---
 
-Local Persistence: Events are saved to the browser's local storage so they are not lost on page reload.
+## 📋 Features
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3, JavaScript (ESM)
+- 💬 *Conversational AI Chatbot* – Schedule events by simply typing requests like:  
+  “Schedule a meeting with the team tomorrow at 2pm for 45 minutes.”
+- 🧠 *Intelligent Entity Extraction* – Extracts event *title, date, time, duration, and participants*.
+- 📝 *Manual Event Management* – Full-featured form to create, edit, and view events.
+- 🗓 *Upcoming Events View* – See your schedule for the next 14 days.
+- 🔔 *Browser Notifications* – Get reminders before your events start.
+- 💾 *Local Persistence* – Events are saved in browser local storage (no data loss on reload).
 
-Backend: Node.js, Express.js
+---
 
-AI: Google Generative AI (Gemini Pro)
+## 🛠 Tech Stack
 
-Deployment: Render, GitHub
+- *Frontend:* HTML5, CSS3, JavaScript (ESM)
+- *Backend:* Node.js, Express.js
+- *AI Integration:* Google Generative AI (Gemini via [Google AI Studio](https://aistudio.google.com/))
+- *Deployment:* Render, GitHub
 
-🚀 Setup and Local Installation
-To run this project on your local machine, follow these steps:
+---
 
-1. Clone the Repository
-Bash
+## 🌐 Deployment
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
-2. Install Dependencies
-This will install all the necessary backend packages.
+This application is deployed as a *Web Service on Render*.
 
-Bash
+---
 
-npm install
-3. Set Up Environment Variables
-Create a file named .env in the root of your project and add your Google AI API key:
+## 🔮 Future Improvements
 
-GOOGLE_API_KEY="YOUR_SECRET_API_KEY_HERE"
-4. Start the Server
-This command will start the backend server and serve the frontend files.
+- 📌 Google Calendar Integration – Sync events...
 
-Bash
+---
 
-npm start
-5. Open the Application
-Open your browser and navigate to http://localhost:3000.
+## 🤝 Contributing
 
-🌐 Deployment
-This application is deployed as a Web Service on Render, connected directly to the GitHub repository. The GOOGLE_API_KEY is securely stored as an environment variable in the Render dashboard. Pushing new commits to the main branch automatically triggers a new deployment.
+Contributions are welcome! 🎉  
+1. Fork this repo  
+2. Create a new branch  
+3. Submit a pull request 🚀
 
-📄 License
-This project is licensed under the MIT License.
+---
+
+## 📄 License
+
+This project is licensed under the *MIT License* – see the [LICENSE](LICENSE) file for details.
